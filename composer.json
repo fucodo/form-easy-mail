@@ -1,0 +1,24 @@
+{
+	"name": "fucodo/form-easy-mail",
+	"description": "Simplifies the form mail finishers",
+	"type": "typo3-cms-extension",
+	"license": "GPL-2.0+",
+	"require": {
+		"typo3/cms-core": "^10 || ^11"
+	},
+	"replace": {
+		"form_easy_mail": "self.version"
+	},
+	"autoload": {
+		"classmap": ["Classes/"],
+		"psr-4": {
+			"Fucodo\\EasyMail\\": "Classes/"
+		}
+	},
+	"homepage": "http://fucodo.de/",
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "form_easy_mail"
+		}
+	}
+}

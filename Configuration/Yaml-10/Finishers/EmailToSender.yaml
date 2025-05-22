@@ -1,0 +1,5 @@
+prototypes:
+  standard:
+    finishersDefinition:
+      EmailToSender:
+        implementationClassName: Fucodo\EasyMail\Domain\Finishers\EmailFinisher
