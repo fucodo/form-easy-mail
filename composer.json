@@ -6,9 +6,6 @@
 	"require": {
 		"typo3/cms-core": "^10 || ^11"
 	},
-	"replace": {
-		"form_easy_mail": "self.version"
-	},
 	"autoload": {
 		"classmap": ["Classes/"],
 		"psr-4": {
