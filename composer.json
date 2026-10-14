@@ -4,8 +4,8 @@
 	"type": "typo3-cms-extension",
 	"license": "GPL-2.0+",
 	"require": {
-		"typo3/cms-core": "^11 || ^12",
-		"typo3/cms-form": "^11 || ^12"
+		"typo3/cms-core": "^12 || ^13",
+		"typo3/cms-form": "^12 || ^13" 
 	},
 	"autoload": {
 		"classmap": ["Classes/"],
